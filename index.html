@@ -7,28 +7,33 @@
   <meta name="generator" content="Google Web Designer 4.2.0.0802">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
   <link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+  <link href="css/font-awesome.css" rel="stylesheet"> 
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
 </head>
 
   
 <body>
-<div class="container-fluid">
+<div class="container-fluid body-wrapper">
   <!-- Header starts here -->
   <div class="header row row-flex">
-
-    <div class="header-left col-md-3 col-sm-2 hidden-xs" style="min-height: 100px;">
-    </div>
-    
-    <div class="header-right col-md-9 col-sm-10 col-xs-12" style="min-height: 150px; background: #AA0000">
+    <div class="header-right">
       <div class="row">
-        <div class="col-md-8 col-xs-8">
+        <div class="col-md-8">
           <div class="header-logo"></div>
         </div>
 
-        <div class="col-md-4 col-xs-4">
-          <button type="button" class="btn btn-danger btn-lg subscribe">Inscrever-se</button>
+        <div class="col-md-4">
+          <div class = "subscribe-wrapper">
+            <button type="button" class="btn btn-danger btn-lg subscribe">Inscrever-se</button>
+            <div class="search">
+              <gcse:search></gcse:search>
+            </div>
+          </div>
         </div>  
       </div>     
     </div>
@@ -38,11 +43,11 @@
 
   
   <!-- Main starts here -->
-  <div class="main row" style="background:#0000AA">
+  <div class="main row">
     
     <!-- Navigation starts here -->
-    <div class="navigation col-md-3 col-sm-2" style="background: #0000AA">
-      <nav class="navbar navbar-default" role="navigation" style="margin: 0px;">
+    <div class="navigation col-sm-3">
+      <nav class="navbar navbar-custom" role="navigation" style="margin: 0px;">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="icon-bar"></span>
@@ -51,52 +56,319 @@
             </button>
         </div>
         <div class="collapse navbar-collapse">
-            <div class="panel-heading">Sidebar22</div>
+<!--            <div class="panel-heading"></div>-->
             <ul class="nav nav-stacked">
-                <li class="active"><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>              
+                <li class="navc1 active"><a href="#"><i class="fa-lg fa fa-home"></i><span class="nav-txt">Página inicial</span></a></li>
+                <li class="navc2"><a href="#"><i class="fa-lg fa fa-users"></i><span class="nav-txt">Quem somos</span></a></li>
+                <li class="navc3"><a href="#"><i class="fa-lg fa fa-play"></i><span class="nav-txt">Lista de Vídeos</span></a></li>
+                <li class="navc4"><a href="#"><i class="fa-lg fa fa-newspaper-o"></i><span class="nav-txt">Notícias</span></a></li>
+                <li class="navc5"><a href="#"><i class="fa-lg fa fa-envelope"></i><span class="nav-txt">Contato</span></a></li>              
             </ul>
         </div><!-- /.navbar-collapse -->
       </nav>
+      
+      <div class="hidden-xs side-widget">
+        <div class="side-widget-content">
+					<a href="single.html"><img src="images/t1.jpg"  style="width: 100%" alt="" /></a>
+        </div>
+        
+        <div class="side-widget-title">
+          <h3> Video em destaque </h3>   
+        </div>  
+      </div>
+
+      <div class="hidden-xs side-widget">
+        <div class="side-widget-content">
+          <a href="single.html"><img src="images/t2.jpg"  style="width: 100%" alt="" /></a>
+        </div>
+        <div class="side-widget-title">
+          <h3> Video mais visto </h3>   
+        </div>  
+      </div>
+      
+      <div class="hidden-xs side-widget">
+        <div class="side-widget-content btm-right" style="margin: 0; padding: 0">
+  					<a href="single.html"><img src="images/p8.jpg"  style="width: 100%" alt="" /></a>
+					  <div class="w3social-icons captn-icon"> 
+						  <ul>
+							  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							  <li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
+							  <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+						  </ul>
+					  </div>
+        </div>
+        <div class="side-widget-title">
+          <h3> Astrotuber da semana </h3>   
+        </div>  
+      </div>  
+
     </div>
     <!-- /Navigation ends here -->
     
     <!-- Content starts here -->
-    <div class="content col-md-9 col-sm-10" style="min-height: 100px; background: #0000FF">
-      <h1>
-        Teste conteudeo principal
-      </h1>
+    <div class="content col-sm-9" style="min-height: 100px;">
       
       <!-- Slider starts here -->
-      <div class="slider row" style="margin: 2px; min-height: 100px; background: #00FFFF">
-        Slider content
+      <div class="slider row" style="margin: 0px;">
+
+        <div class="container" style="width:100%; padding: 0px; margin: 0px;">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active" style="object-fit: cover;">
+                <img src="images/slider1.jpg" alt="Quem Somos" style="object-fit: contain;">
+                <div class="carousel-caption">
+                <h3></h3>
+                <p></p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="images/slide2.jpg" alt="SAB 2018" style="object-fit: contain;">
+                <div class="carousel-caption">
+                <h3>SAB</h3>
+                <p>Astrotubers fecham parceria com a Sociedade Astronômica Brasileira</p>
+                </div>
+              </div>
+            
+              <div class="item">
+                <img src="images/slide3.jpeg" alt="Whatsapp" style="object-fit: contain;">
+                <div class="carousel-caption">
+                <h3>Whatsapp</h3>
+                <p>Venha participar das nossas discussões sobre a vida, o universo e tudo mais</p>
+                </div>
+              </div>
+              
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
       </div>
       <!-- /Slider ends here -->
       
       <!-- Videos starts here -->
-      <div class="videos row" style="margin: 2px; min-height: 100px; background: #00FFFF">
-        <h1> Videos Recentes </h1>
+      <div class="videos row">
+        <h1> Vídeos Recentes </h1>
+
+          <div class="col-md-4 col-sm-12 videos-grid">
+						<div class="videos-grid-img">
+							<a href="single.html"><img src="images/t1.jpg" alt="" /></a>
+						</div>
+						<div class="videos-grid-info">
+							<h3><a href="single.html" class="title title-info">Por que algumas estrelas brilham mais que as outras?</a></h3>
+						</div>
+					</div>
+					
+          <div class="col-md-4 col-sm-6 videos-grid">
+						<div class="videos-grid-img">
+							<a href="single.html"><img src="images/t2.jpg" alt="" /></a>
+						</div>
+						<div class="videos-grid-info">
+							<h3><a href="single.html" class="title title-info">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet</a></h3>
+						</div>
+					</div>
+					
+          <div class="col-md-4 col-sm-6 videos-grid">
+						<div class="videos-grid-img">
+							<a href="single.html"><img src="images/t3.jpg" alt="" /></a>
+						</div>
+						<div class="videos-grid-info">
+							<h3><a href="single.html" class="title title-info">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet</a></h3>
+						</div>
+					</div>
+					
       </div>
       <!-- /Videos ends here -->
-
-      <!-- Recommended starts here -->
-      <div class="recommended row" style="margin: 2px; min-height: 100px; background: #00FFFF">
-        <h1> Videos Recomendados </h1>
-      </div>
-      <!-- /Recommended ends here -->
-      
+     
       <!-- Playlists starts here -->
-      <div class="playlists row" style="margin: 2px; min-height: 100px; background: #00FFFF">
+      <div class="playlists row">
         <h1> Playlists </h1>
+
+        <!-- Fonte https://bootsnipp.com/snippets/Ga9k0 -->
+        <div class="accordian">
+            <ul>
+		        <li style = "margin-left: -50px;">
+			        <div class="image_title">
+				        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">Estrelas</a>
+			        </div> 
+			        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
+				        <img src="images/pl1.jpg"/>
+			        </a>
+		        </li>
+		        <li>
+			        <div class="image_title">
+				        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">Galáxias</a>
+			        </div>
+			        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
+				        <img src="images/pl2.jpg"/>
+			        </a>
+		        </li>
+		        <li>
+			        <div class="image_title">
+				        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">Exoplanetas</a>
+			        </div>
+			        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
+				        <img src="images/pl3.jpg"/>
+			        </a>
+		        </li>
+		        <li>
+			        <div class="image_title">
+				        <a href="#">Instrumentação</a>
+			        </div>
+			        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
+				        <img src="images/pl4.jpg"/>
+			        </a>
+		        </li>
+		        <li>
+			        <div class="image_title">
+				        <a href="#">X-Ciência em Debate</a>
+			        </div>
+			        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
+				        <img src="images/pl5.jpg"/>
+			        </a>
+		        </li>
+	        </ul>
+        </div>
+        <!-- /Fonte https://bootsnipp.com/snippets/Ga9k0 -->
+ 
       </div>
       <!-- /Playlists ends here -->
       
-      <!-- Personnel starts here -->
-      <div class="personnel row" style="margin: 2px; min-height: 100px; background: #00FFFF">
-        <h1> Quem Somos </h1>
+      <!-- Recommended starts here -->
+      <div class="recommended row">
+        <h1> Vídeos Recomendados </h1>
+        
+        <div class="col-md-3 col-sm-6 col-xs-6 videos-grid recommended-grid">
+					<div class="videos-grid-img">
+						<a href="single.html"><img src="images/t1.jpg" alt="" /></a>
+					</div>
+				</div>
+				
+        <div class="col-md-3 col-sm-6 col-xs-6 videos-grid recommended-grid">
+					<div class="videos-grid-img">
+						<a href="single.html"><img src="images/t2.jpg" alt="" /></a>
+					</div>
+				</div>
+
+        <div class="col-md-3 col-sm-6 col-xs-6 videos-grid recommended-grid">
+					<div class="videos-grid-img">
+						<a href="single.html"><img src="images/t3.jpg" alt="" /></a>
+					</div>
+				</div>
+				
+        <div class="col-md-3 col-sm-6 col-xs-6 videos-grid recommended-grid">
+					<div class="videos-grid-img">
+						<a href="single.html"><img src="images/t1.jpg" alt="" /></a>
+					</div>
+				</div>
+												
       </div>
+      <!-- /Recommended ends here -->
+      
+      <!-- Personnel starts here -->
+      <div class="personnel row">
+        <h1> Quem Somos </h1>
+        
+
+			  <div class="teamw3-agileinfo">
+				  <div class="col-md-3 col-sm-6 col-xs-6">
+					  <div class="btm-right">
+		          <a href="#aaa">
+						  <img src="images/p9.jpeg" alt=" ">
+		          </a>
+						  <div class="w3social-icons captn-icon"> 
+							  <ul>
+								  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								  <li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
+								  <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+							  </ul>
+						  </div>
+						  <a href="#aaa">
+						  <div class="captn">
+							  <h5>UFRJ</h5>
+							  <h4>Rio de Janeiro - RJ</h4>
+						  </div>
+						  </a>
+					  </div>
+				  </div>
+			  </div>
+        
+			  <div class="teamw3-agileinfo">
+				  <div class="col-md-3 col-sm-6 col-xs-6">
+					  <div class="btm-right">
+						  <img src="images/p8.jpg" alt=" ">
+						  <div class="w3social-icons captn-icon"> 
+							  <ul>
+								  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								  <li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
+								  <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+							  </ul>
+						  </div>
+						  <div class="captn">
+							  <h5>USP</h5>
+							  <h4>São Paulo - SP</h4>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+
+			  <div class="teamw3-agileinfo">
+				  <div class="col-md-3 col-sm-6 col-xs-6">
+					  <div class="btm-right">
+						  <img src="images/p9.jpeg" alt=" ">
+						  <div class="w3social-icons captn-icon"> 
+							  <ul>
+								  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								  <li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
+								  <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+							  </ul>
+						  </div>
+						  <div class="captn">
+							  <h5>UFRN</h5>
+							  <h4>Natal - RN</h4>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+
+			  <div class="teamw3-agileinfo">
+				  <div class="col-md-3 col-sm-6 col-xs-6">
+					  <div class="btm-right">
+						  <img src="images/p8.jpg" alt=" ">
+						  <div class="w3social-icons captn-icon"> 
+							  <ul>
+								  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								  <li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
+								  <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+							  </ul>
+						  </div>
+						  <div class="captn">
+							  <h5>UFS</h5>
+							  <h4>São Cristovão - SE</h4>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+
+        <div style="clear:both"></div>
+       
+      </div>
+        
       <!-- /Personnel ends here -->
 
       <!-- Contact starts here -->
@@ -111,8 +383,9 @@
   </div>
   <!-- /Main ends here -->
 
+  <div style="clear:both"></div>
   <!-- Footer starts here -->
-  <div class="footer row">
+  <div class="footer row row-flex">
 
     <div class="footer-left col-md-3 col-sm-2 hidden-xs" style="min-height: 100px; background: #00FF00">
       Left footer content
@@ -125,6 +398,32 @@
   </div>
   <!-- /Footer ends here -->
 </div>
+
+
+<!-- Google search script starts here -->
+<style>
+    .cse .gsc-control-cse,
+    .gsc-control-cse {
+      background-color:transparent !important;
+      border: 0 !important;
+    }
+</style>
+
+
+<script>
+  (function() {
+    var cx = '012820431425162005373:lmpa6epirg0';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<!-- /Google search script ends here -->
+
+
 
 </body>
 

@@ -13,8 +13,19 @@ html, body {
 }
 body {
   background-color: transparent;
+  background: url(../images/bg2.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-attachment: fixed;
   transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   transform-style: preserve-3d;
+}
+
+.body-wrapper {
+  max-width: 1200px;
 }
 
 p {
@@ -34,59 +45,395 @@ h3 {
   display: flex;
   flex-wrap: wrap;
 }
+
 .header{
-  background-image: url('');
-  background-color: #4488AA;
+  background-color: transparent;
+  background-image: url('../images/capa.png');
+  background-size: cover;  
+  background-repeat: no-repeat; 
+  background-position: center center;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .header-left{
-  background-image: url('../images/astrotubers_logo.png');
+  background-image: url('');
   background-size: contain;  
   background-repeat: no-repeat; 
   background-position: center center;
 }
 
+.search{
+  width: 90%;
+  margin: 20px auto;
+}
+
 .header-logo{
-  margin-top: 20px;
+  margin: 40px 0;
   padding-top: 20%;
-  background-color: #00AA00;
   background-image: url('../images/astrotubers_texto.png');
   background-size: contain;  
   background-repeat: no-repeat; 
   background-position: center center;
 }
 
-
+.main{
+}
 .navigation {
   padding: 0px !important;
+  background: rgba(0,0,0,0.9);
 }
 
 .content{
   padding: 0px !important;
 }
 
+.subscribe-wrapper{
+  padding-top: 20%;
+}
+
 .subscribe{
   margin: auto;
   display: block;
-  margin-top: 40px;
 }
+
+
 
 .content h1{
   font-family: 'Nunito', sans-serif;
   margin: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.navbar-custom {
+    background-color:#111;
+    color:#aaa;
+    border-radius:0;
+}
+
+.navbar-custom a{
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 3em;
+}
+
+.navbar-collapse{
+  padding: 0;
+}
+
+.nav>li>a:hover{
+  background-color: #222;
+}
+
+.navc1>a:hover{color: #4aF;}
+.navc2>a:hover{color: #Fa4;}
+.navc3>a:hover{color: #aF4;}
+.navc4>a:hover{color: #F4a;}
+.navc5>a:hover{color: #4Fa;}
+.navc6>a:hover{color: #a4F;}
+.navc7>a:hover{color: #aaa;}
+
+.navbar-collapse ul{
+  padding: 0;
+}
+.navbar-collapse li{
+  border-bottom: 1px #222 solid;
+  margin: 0px !important;
+}
+
+.nav-txt{
+  margin: 0 10px;
+}
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+    background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+    background-color:#222;
+}
+
+.videos{
+  margin: 0px;
+  padding: 1em 3%;
+  background: #FFF;
+}
+.videos-grid {
+  margin-bottom: 20px;
+	padding: 0 1em;
+}
+.videos-grid-img{
+	position:relative;
+}
+.videos-grid-img iframe{
+  width: 100%;
+  height: 642px;
+}
+.videos-grid-img a{
+	display:block;
+}
+.videos-grid a img{
+	width:100%;
+}
+
+.videos-grid-info{
+  padding-left: 0.2em;
+}
+
+.videos-grid-info a.title{
+    color: #222;
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+.recommended {
+  margin: 0px;
+  padding: 0 10px 20px 10px;
+    background: #FFF;
+}
+.recommended-grid {
+  margin-bottom: 0px;
+	padding: 2px;
+}
+
+.playlists{
+  padding: 20px 0;
+  background-color: rgba(150,150,150,0.6);
+/*  background: url(../images/playlist-bg.jpg) no-repeat 0px 0px;*/
+/*  background-size: cover;*/
+/*  -webkit-background-size: cover;*/
+/*  -moz-background-size: cover;*/
+/*  -o-background-size: cover;*/
+/*  -ms-background-size: cover;*/
+  margin: 0 !important;
 }
 
 .playlists h1{
   text-align: center;
+  color: #eee;
 }
 
-.contact h1{
-  color: #082;
+.accordian {
+	width: 90%;
+	overflow: hidden;
+	
+	/*Time for some styling*/
+	margin: 10px auto;
+	margin-bottom: 20px;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
 }
 
-.main{
+/*A small hack to prevent flickering on some browsers*/
+.accordian ul {
+	width: 1400px;
+	/*This will give ample space to the last item to move
+	instead of falling down/flickering during hovers.*/
 }
 
+.accordian li {
+	position: relative;
+	display: block;
+	width: 12%;
+	float: left;
+	
+	border-left: 1px solid #888;
+	
+	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	
+	/*Transitions to give animation effect*/
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	/*If you hover on the images now you should be able to 
+	see the basic accordian*/
+}
+
+/*Reduce with of un-hovered elements*/
+.accordian ul:hover li {width: 6.5%;}
+/*Lets apply hover effects now*/
+/*The LI hover style should override the UL hover style*/
+.accordian ul li:hover {width: 35%;}
+
+
+.accordian li img {
+	display: block;
+}
+
+/*Image title styles*/
+.image_title {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0; bottom: 0;	
+width: 640px;	
+
+}
+.image_title a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 16px;
+}
+
+.personnel{
+	padding:0 0;
+	margin: 0 !important;
+	background:#FFFFFF;
+}
+.teamw3-agileinfo{
+	margin:0;
+}
+
+.btm-right {
+	overflow: hidden;
+	position: relative;
+	display: block;
+	margin-bottom: 20px;
+}
+.btm-right img{
+	width: 100%;
+}
+.btm-right .captn {
+    color: #fff;
+    background-color: #222;
+    text-align: center;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    padding:1.3em 0;
+    border-bottom: 5px solid #222;
+}
+.captn{
+text-decoration: none;
+}
+.captn h4 {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0;
+}
+.captn h5 {
+    font-size: 1.1em;
+    color: #ddd;
+    margin: 0;
+}
+.captn-icon {
+    background: rgba(2, 2, 2, 0.65);
+	width: 30%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    text-align: center;
+    padding: 0.5em 0;
+    transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+} 
+.captn-icon ul {
+	margin:0;
+	padding:0;
+}
+.captn-icon ul li { 
+    margin: 0.5em;
+	display: block;
+}
+.captn-icon ul li a i.fa{
+	height: 25px;
+    width: 25px;
+    line-height: 25px;
+    border: solid 1px #FFFFFF;
+    color: #FFFFFF;
+    background: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.btm-right:hover .captn {
+    background: #1cf1f1;
+    transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    border-bottom-color: #1bdfdf;
+}
+.captn-icon ul li a i.fa.fa-facebook:hover {
+    border: solid 1px #3b5998;
+    background: #3b5998;
+    color: #FFFFFF;
+}
+.captn-icon ul li a i.fa.fa-twitter:hover {
+    border: solid 1px #55acee;
+    background: #55acee;
+    color: #FFFFFF;
+}
+.captn-icon ul li a i.fa.fa-google-plus:hover {
+    border: solid 1px #f26522;
+    background: #f26522;
+    color: #FFFFFF;
+}
+
+.personnel2{
+  margin: 0;
+  padding: 0;
+}
+.personnel2 img{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.side-widget{
+  width: 80%;
+  margin: 80px auto;
+  padding: 0;
+}
+
+.side-widget-content{
+  min-height: 50px;
+  border: 1px solid #111;
+}
+
+.side-widget-title h3{
+  color: #eee;
+  font-size: 1.4em;
+  line-height: 2em;
+  text-align: center;
+  margin-left: 0px; 
+  background: #111
+}
+
+.side-widget-green{
+  border-color: #0a0;
+}
+
+.side-widget-title-green h3{
+  background: #0a0;
+}
+
+.side-widget-content-green{
+  border-color: #0a0;
+}
+
+.side-widget-content-blue{
+  border-color: #0aa;
+}
+
+.side-widget-title-blue h3{
+  background: #0aa;
+  
+}
 /*-- responsive-starts-here --*/
 
 @media(max-width: 1200px){
