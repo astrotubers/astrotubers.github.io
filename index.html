@@ -17,15 +17,16 @@
   <script>
     $(document).ready(function(){
       
-      $('#header').load("header.txt");
-      $('#navegacao').load("navegacao.txt");
-      $('#slider').load("slider.txt");
-      $('#videos').load("videos.txt");
-      $('#noticias').load("noticias.txt");
-      $('#playlists').load("playlists.txt");
-      $('#recommended').load("recommended.txt");
-      $('#contact').load("contact.txt");
-      $('#footer').load("footer.txt");
+      $('#header').load("layout/header.txt");
+      $('#navigation').load("layout/navigation.txt");
+      $('#slider').load("layout/slider.txt");
+      $('#videos').load("layout/videos.txt");
+      $('#noticias').load("layout/noticias.txt");
+      $('#playlists').load("layout/playlists.txt");
+      $('#recommended').load("layout/recommended.txt");
+      $('#personnel').load("layout/personnel.txt");
+      $('#contact').load("layout/contact.txt");
+      $('#footer').load("layout/footer.txt");
     });
   </script>
 </head>
@@ -41,9 +42,7 @@
   <!-- Main starts here -->
   <div class="main row">
     
-    <div class="navigation-wrapper col-sm-3">
-      <div id="navegacao"></div>
-    </div>
+    <div id="navigation" style="padding:0px;"></div>
     
     <!-- Content starts here -->
     <div class="content col-sm-9">
