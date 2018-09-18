@@ -92,6 +92,10 @@ h3 {
 display: flex;
 }
 
+.navigation-wrapper {
+  padding: 0px !important;
+}
+
 .navigation {
   padding: 0px !important;
   background: rgba(0,0,0,0.9);
