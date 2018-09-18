@@ -1,0 +1,73 @@
+<!-- Noticias starts here -->
+<div class="noticias row">
+  <h1>Notícias </h1>
+  
+  <div class="col-md-8 noticias-principais">
+    
+    <div class="noticia noticia-primeira">
+      <div class="col-md-4 col-sm-4 col-xs-4 noticia-img">
+          <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
+	          <img src="images/pl3.jpg"/>
+          </a>
+      </div>
+      <div class="col-md-8 noticia-titulo">
+        <h4 class="hidden-xs"> Teste subtitulo </h4>
+        <h2><a href="single.html"> Teste de Título de noticia numero 1 com algumas linhas </a></h2>
+      </div>
+    </div>
+              
+    <div style="clear:both"></div>
+ 
+    <div class="noticia">     
+      <div class="col-md-4 col-sm-4 col-xs-4 noticia-img">
+          <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
+	          <img src="images/pl4.jpg"/>
+          </a>
+      </div>
+      <div class="col-md-8">
+        <h4 class="hidden-xs"> Teste subtitulo </h4>
+        <h2><a href="single.html"> Teste de Título de noticia numero 1 com algumas linhas </a></h2>
+      </div>
+    </div>
+    
+    <div style="clear:both"></div>
+    
+    <div class="noticia">
+      <div class="col-md-4 col-sm-4 col-xs-4 noticia-img">
+          <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
+	          <img src="images/pl1.jpg"/>
+          </a>
+      </div>
+      <div class="col-md-8">
+        <h4 class="hidden-xs"> Teste subtitulo </h4>
+        <h2><a href="single.html"> Teste de Título de noticia numero 1 com algumas linhas </a></h2>
+      </div>
+    </div>
+    
+  </div>
+  <div class="col-md-4 noticias-secundarias">
+  
+   <div class="col-md-12 col-sm-6 col-xs-6 noticias-secundarias-wrapper">
+    <div class="noticia-secundaria noticia-secundaria-primeira">
+        <h2><a href="single.html"> Teste de Título de noticia numero 2 menor </a></h2>
+    </div>
+    
+    <div class="noticia-secundaria">
+        <h2><a href="single.html"> Teste de Título de noticia numero 2 menor </a></h2>
+    </div>
+   </div>
+    
+   <div class="col-md-12 col-sm-6 col-sm-6 col-xs-6 noticias-secundarias-wrapper">
+    <div class="noticia-secundaria noticia-secundaria-terceira">
+        <h2><a href="single.html"> Teste de Título de noticia numero 2 menor </a></h2>
+    </div>
+    
+    <div class="noticia-secundaria">
+        <h2><a href="single.html"> Teste de Título de noticia numero 2 menor </a></h2>
+    </div>
+   </div>
+    
+  </div>
+</div>
+<!-- /Noticias ends here -->
+

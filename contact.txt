@@ -1,0 +1,45 @@
+<!-- contact-starts-here -->
+<div class="contact row" id="contact">
+  <h1> Contato </h1>
+  <div class="contact-agile">
+          
+    <div class="contact-left-agile">
+	    <h4>Sobre nós</h4>
+	    <p>Os Astrotubers são um grupo de estudantes de graduação e pós-graduação de física e astronomia de todo o país, que se reuniram para fazer uma divulgação científica divertida e com qualidade.</p>
+	    <div class="add-w3ls-main">	
+			    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+		    <div class="add-w3ls2">
+			    <h5>E-mail</h5>
+			    <p><a href="mailto:info@example.com">astrotubers.contato@gmail.com</a></p>
+		    </div>
+		    <div class="clearfix"> </div>
+	    </div>
+	    <div class="add-w3ls-main">	
+			    <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 
+		    <div class="add-w3ls2">
+			    <h5>Telefones</h5>
+			    <p>+55 (xx) xxxxx-xxxx (Nome)</p>
+			    <p>+55 (xx) xxxxx-xxxx (Nome)</p>
+			    <p>+55 (xx) xxxxx-xxxx (Nome)</p>
+		    </div>
+		    <div class="clearfix"> </div>
+	    </div>
+    </div>    
+    <div class="contact-right-w3l">
+
+	    <div class="contact-form">
+		    <form target="_blank" action="https://docs.google.com/forms/d/e/1FAIpQLSfjsawGMpvXmm7oghSIE6lIrwxoN8rOennpnRjPwQoDInBtBA/formResponse" method="post">
+			    <input placeholder="NOME" name="entry.303538651" type="text" required="" />
+			    <input placeholder="SOBRENOME" name="entry.659021996" type="text" required="" />
+			    <input placeholder="E-MAIL" name="emailAddress" type="email" required="" />
+			    <textarea placeholder="ESCREVA SUA MENSAGEM......" name="entry.1134029305" required=""></textarea>
+			    <input type="submit" value="Enviar" name="login">
+		    </form>
+	    </div> 
+
+    </div> 
+    <div class="clearfix"> </div>
+  </div>  
+</div>  		
+<!-- //contact-ends-here -->
+

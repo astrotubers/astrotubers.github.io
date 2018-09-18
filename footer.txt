@@ -1,0 +1,14 @@
+<!-- Footer starts here -->
+<div class="footer row row-flex">
+  <!-- copyright-starts-here -->
+  <div class="copy-section">
+      <div class="container">
+        <div class="footer-top">
+	        <p>© 2018 Astrotubers. Todos os direitos reservados | Design, execução e manutenção por <a href="http://falmeidafernandes.github.io">Felipe de Almeida-Fernandes</a><br></p>
+        </div>
+      </div>
+  </div>
+  <!-- copyright-ends-here -->   
+</div>
+<!-- /Footer ends here -->
+

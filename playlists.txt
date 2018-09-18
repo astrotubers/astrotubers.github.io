@@ -1,0 +1,54 @@
+<!-- Playlists starts here -->
+<div class="playlists row">
+  <h1> Playlists </h1>
+
+  <!-- Fonte https://bootsnipp.com/snippets/Ga9k0 -->
+  <div class="accordian">
+      <ul>
+      <li style = "margin-left: -50px;">
+        <div class="image_title">
+	        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">Estrelas</a>
+        </div> 
+        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
+	        <img src="images/pl1.jpg"/>
+        </a>
+      </li>
+      <li>
+        <div class="image_title">
+	        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">Galáxias</a>
+        </div>
+        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
+	        <img src="images/pl2.jpg"/>
+        </a>
+      </li>
+      <li>
+        <div class="image_title">
+	        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">Exoplanetas</a>
+        </div>
+        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
+	        <img src="images/pl3.jpg"/>
+        </a>
+      </li>
+      <li>
+        <div class="image_title">
+	        <a href="#">Instrumentação</a>
+        </div>
+        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
+	        <img src="images/pl4.jpg"/>
+        </a>
+      </li>
+      <li>
+        <div class="image_title">
+	        <a href="#">X-Ciência em Debate</a>
+        </div>
+        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
+	        <img src="images/pl5.jpg"/>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- /Fonte https://bootsnipp.com/snippets/Ga9k0 -->
+
+</div>
+<!-- /Playlists ends here -->
+

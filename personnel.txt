@@ -1,0 +1,105 @@
+<!-- Personnel starts here -->
+<div class="personnel row">
+  <h1> Quem Somos </h1>
+
+
+  <div class="teamw3-agileinfo">
+	  <div class="col-md-3 col-sm-6 col-xs-6">
+		  <div class="btm-right">
+        <a href="#aaa">
+			  <img src="images/p9.jpeg" alt=" ">
+        </a>
+			  <div class="w3social-icons captn-icon"> 
+				  <ul>
+					  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					  <li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
+					  <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+				  </ul>
+			  </div>
+			  <a href="#aaa">
+			  <div class="captn">
+				  <h5>UFRJ</h5>
+				  <h4>Rio de Janeiro - RJ</h4>
+			  </div>
+			  </a>
+		  </div>
+	  </div>
+  </div>
+  
+  <div class="teamw3-agileinfo">
+	  <div class="col-md-3 col-sm-6 col-xs-6">
+		  <div class="btm-right">
+        <a href="#aaa">
+			  <img src="images/p9.jpeg" alt=" ">
+        </a>
+			  <div class="w3social-icons captn-icon"> 
+				  <ul>
+					  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					  <li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
+					  <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+				  </ul>
+			  </div>
+			  <a href="#aaa">
+			  <div class="captn">
+				  <h5>UFRJ</h5>
+				  <h4>Rio de Janeiro - RJ</h4>
+			  </div>
+			  </a>
+		  </div>
+	  </div>
+  </div>
+
+  <div class="teamw3-agileinfo">
+	  <div class="col-md-3 col-sm-6 col-xs-6">
+		  <div class="btm-right">
+        <a href="#aaa">
+			  <img src="images/p9.jpeg" alt=" ">
+        </a>
+			  <div class="w3social-icons captn-icon"> 
+				  <ul>
+					  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					  <li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
+					  <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+				  </ul>
+			  </div>
+			  <a href="#aaa">
+			  <div class="captn">
+				  <h5>UFRJ</h5>
+				  <h4>Rio de Janeiro - RJ</h4>
+			  </div>
+			  </a>
+		  </div>
+	  </div>
+  </div>
+
+  <div class="teamw3-agileinfo">
+	  <div class="col-md-3 col-sm-6 col-xs-6">
+		  <div class="btm-right">
+        <a href="#aaa">
+			  <img src="images/p9.jpeg" alt=" ">
+        </a>
+			  <div class="w3social-icons captn-icon"> 
+				  <ul>
+					  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					  <li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
+					  <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+				  </ul>
+			  </div>
+			  <a href="#aaa">
+			  <div class="captn">
+				  <h5>UFRJ</h5>
+				  <h4>Rio de Janeiro - RJ</h4>
+			  </div>
+			  </a>
+		  </div>
+	  </div>
+  </div>
+
+  <div style="clear:both"></div>
+ 
+  <button class="button-mais"><span>Ver todos </span></button>
+
+</div>
+  
+<!-- /Personnel ends here -->
+
