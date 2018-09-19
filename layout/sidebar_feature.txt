@@ -1,0 +1,34 @@
+<h1> Destaques </h1>
+<div class="side-widget">
+  <div class="side-widget-content btm-right" style="margin: 0; padding: 0">
+			<a href="single.html"><img src="images/p9.jpeg"  style="height: 200px; width: 100%" alt="" /></a>
+	    <div class="w3social-icons captn-icon"> 
+		    <ul>
+			    <li><a href="#"><i class="fa fa-envelope"></i></a></li> 
+			    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			    <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+		    </ul>
+	    </div>
+  </div>
+  <div class="side-widget-title">
+    <a href="#"><h3>Astrotuber<br>da Semana</h3></a>
+  </div>  
+</div>  
+
+<div class="side-widget">
+  <div class="side-widget-content">
+	  <a href="single.html"><img src="images/t1.jpg"  style="width: 100%" alt="" /></a>
+  </div>
+  <div class="side-widget-title">
+    <a href="#"><h3>Recomendado</h3></a>
+  </div>  
+</div>
+
+<div class="side-widget">
+  <div class="side-widget-content">
+    <a href="single.html"><img src="images/t2.jpg"  style="width: 100%" alt="" /></a>
+  </div>
+  <div class="side-widget-title">
+    <a href="#"><h3>Mais visto do mês</h3></a>
+  </div>  
+</div>

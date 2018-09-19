@@ -18,7 +18,11 @@
     $(document).ready(function(){
       
       $('#header').load("layout/header.txt");
-      $('#navigation').load("layout/navigation.txt");
+      $('#navbar').load("layout/navbar.txt");
+      $('#sidebar_social').load("layout/sidebar_social.txt");
+      $('#sidebar_feature').load("layout/sidebar_feature.txt");
+      $('#sidebar_playlists').load("layout/sidebar_playlists.txt");
+      $('#sidebar_partners').load("layout/sidebar_partners.txt");
       $('#slider').load("layout/slider.txt");
       $('#videos').load("layout/videos.txt");
       $('#noticias').load("layout/noticias.txt");
@@ -42,7 +46,19 @@
   <!-- Main starts here -->
   <div class="main row">
     
-    <div id="navigation" style="padding:0px;"></div>
+    <!-- Navigation starts here -->
+    <div class="navigation col-sm-3">
+      <div id="navbar"></div>
+
+      <div class="hidden-xs">
+        <div id="sidebar_feature"></div>
+        <div id="sidebar_social"></div>
+        <div id="sidebar_playlists"></div>
+        <div id="sidebar_partners"></div>
+      </div>
+      
+    </div>
+    <!-- /Navigation ends here -->
     
     <!-- Content starts here -->
     <div class="content col-sm-9">

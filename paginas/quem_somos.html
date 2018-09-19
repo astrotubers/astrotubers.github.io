@@ -46,7 +46,6 @@
     <!-- Content starts here -->
     <div class="content col-sm-9">
       
-      <div id="slider"></div>
       <div style="background: #fff; padding: 20px">
         <h1> Quem Somos </h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae mi eu nisi tincidunt placerat. Nam orci lectus, pellentesque in pellentesque quis, volutpat non lacus. Sed mi magna, tincidunt ac erat ac, iaculis laoreet velit. Pellentesque commodo efficitur sem in dictum. Suspendisse potenti. Maecenas vulputate eu metus vel consequat. Pellentesque pellentesque tempor pulvinar. Nullam pellentesque enim semper urna facilisis, pellentesque accumsan mi ornare. Suspendisse dapibus, lorem vitae feugiat ultricies, sem velit pharetra lectus, quis ultricies dui nisi lacinia dolor. Sed euismod leo augue, vitae porttitor augue ultrices nec. Sed vel lorem est.</p>
@@ -59,6 +58,8 @@
         
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada tellus at lorem bibendum efficitur. Phasellus hendrerit leo tellus, sed aliquet elit lacinia at. Nam imperdiet ligula ut orci aliquet vestibulum. Nulla vestibulum pharetra lorem, quis consequat sapien consectetur vel. Nunc id posuere sapien. Quisque iaculis efficitur mattis. Nunc quis iaculis nisl. Maecenas sed est in purus convallis pretium. </p>
       </div>
+      
+      <div class="fb-comments" data-href="https://astrotubers.github.io/paginas/quem_somos.html" data-numposts="5"></div>
       
       <div id="recommended"></div>
       <div id="contact"></div>
@@ -94,6 +95,18 @@
   })();
 </script>
 <!-- /Google search script ends here -->
+
+<!-- Facebook comments script starts here -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.1&appId=209719772433563&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- /Facebook comments script ends here -->
 
 </body>
 
