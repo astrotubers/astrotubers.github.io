@@ -36,6 +36,18 @@
 
   
 <body>
+
+<!-- Facebook comments script starts here -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.1&appId=209719772433563&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- /Facebook comments script ends here -->
   
   
 <div class="container-fluid body-wrapper">
@@ -50,7 +62,6 @@
       <div id="navbar"></div>
 
       <div class="hidden-xs">
-        <div id="sidebar_feature"></div>
         <div id="sidebar_social"></div>
         <div id="sidebar_playlists"></div>
         <div id="sidebar_partners"></div>
@@ -111,18 +122,6 @@
   })();
 </script>
 <!-- /Google search script ends here -->
-
-<!-- Facebook comments script starts here -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.1&appId=209719772433563&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-</script>
-<!-- /Facebook comments script ends here -->
 
 </body>
 
