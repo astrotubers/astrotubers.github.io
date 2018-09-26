@@ -1008,6 +1008,35 @@ h3.agile-contact {
     height: 100%;
 }
 
+.fb-comments-wrapper{
+    width: 75%;
+    margin-left: 12.5%;
+}
+.fb-comments {
+    width: 100% !important;
+   }
+.fb-comments iframe[style] {
+   width: 100% !important;
+  }
+.fb-like-box {
+   width: 100% !important;
+  }
+.fb-like-box iframe[style] {
+   width: 100% !important;
+  }
+.fb-comments span {
+   width: 100% !important;
+  }
+.fb-comments iframe span[style] {
+   width: 100% !important;
+  }
+.fb-like-box span {
+   width: 100% !important;
+  }
+.fb-like-box iframe span[style] {
+   width: 100% !important;
+  }
+
 /*-- responsive-starts-here --*/
 
 @media(max-width: 1200px){
