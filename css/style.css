@@ -227,6 +227,9 @@ display: flex;
 
 .content{
   padding: 0px !important;
+}
+
+.content_alt{
   background-color: rgba(0,0,0,0.9);
 }
 

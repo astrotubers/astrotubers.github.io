@@ -7,7 +7,7 @@
     <div class="noticia noticia-primeira">
       <div class="col-md-4 col-sm-4 col-xs-4 noticia-img">
           <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
-	          <img src="images/pl3.jpg"/>
+	          <img src="../../../../../../images/pl3.jpg"/>
           </a>
       </div>
       <div class="col-md-8 noticia-titulo">
@@ -21,7 +21,7 @@
     <div class="noticia">     
       <div class="col-md-4 col-sm-4 col-xs-4 noticia-img">
           <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
-	          <img src="images/pl4.jpg"/>
+	          <img src="../../../../../../images/pl4.jpg"/>
           </a>
       </div>
       <div class="col-md-8">
@@ -35,7 +35,7 @@
     <div class="noticia">
       <div class="col-md-4 col-sm-4 col-xs-4 noticia-img">
           <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
-	          <img src="images/pl1.jpg"/>
+	          <img src="../../../../../../images/pl1.jpg"/>
           </a>
       </div>
       <div class="col-md-8">
