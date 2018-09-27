@@ -13,6 +13,7 @@ $(document).ready(function(){
   $('#recommended').load("/layout/recommended.txt");
   $('#personnel').load("/layout/personnel.txt");
   $('#contact').load("/layout/contact.txt");
+  $('#contact_alt').load("/layout/contact_alt.txt");
   $('#footer').load("/layout/footer.txt");
 });
 
