@@ -9,29 +9,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   
-  <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
-  <link href="../css/font-awesome.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+  <link href="/css/font-awesome.css" rel="stylesheet"> 
   
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      
-      $('#header').load("../layout/header.txt");
-      $('#navbar').load("../layout/navbar.txt");
-      $('#sidebar_social').load("../layout/sidebar_social.txt");
-      $('#sidebar_feature').load("../layout/sidebar_feature.txt");
-      $('#sidebar_playlists').load("../layout/sidebar_playlists.txt");
-      $('#sidebar_partners').load("../layout/sidebar_partners.txt");
-      $('#slider').load("../layout/slider.txt");
-      $('#videos').load("../layout/videos.txt");
-      $('#noticias').load("../layout/noticias.txt");
-      $('#playlists').load("../layout/playlists.txt");
-      $('#recommended').load("../layout/recommended.txt");
-      $('#contact').load("../layout/contact_alt.txt");
-      $('#footer').load("../layout/footer.txt");
-    });
-  </script>
+  <script src="/js/load_layout.js"></script>
   
   <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -80,7 +63,7 @@
     <!-- /Navigation ends here -->
     
     <!-- Content starts here -->
-    <div class="content col-sm-9">
+    <div class="content content_alt col-sm-9">
       
       <div style="background: #fff; padding: 20px">
         <h1> Quem Somos </h1>
