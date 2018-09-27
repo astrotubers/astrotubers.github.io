@@ -1009,8 +1009,8 @@ h3.agile-contact {
 }
 
 .fb-comments-wrapper{
-    width: 75%;
-    margin-left: 12.5%;
+    width: 90%;
+    margin-left: 5%;
 }
 .fb-comments {
     width: 100% !important;
@@ -1219,13 +1219,19 @@ h3.agile-contact {
 }
 
 @media(max-width: 480px){
+.fb-comments-wrapper{
+    width: 90%;
+    margin-left: 5%;
+}
 
 .accordian li {width: 3%;}
 .accordian ul:hover li {width: 3%;}
 .accordian ul li:hover {width: 12%;}
 
 .content h1{
-  font-size: 2.2em;
+  font-size: 2em;
+  margin: 0.2em 0.1em 0.2em 0.1em;
+  padding-bottom: 0.1em;
 }
 
 .slider{
