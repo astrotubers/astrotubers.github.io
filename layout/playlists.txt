@@ -10,7 +10,7 @@
 	        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">Estrelas</a>
         </div> 
         <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
-	        <img src="../../../../../../images/pl1.jpg"/>
+	        <img src="/images/pl1.jpg"/>
         </a>
       </li>
       <li>
@@ -18,7 +18,7 @@
 	        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">Galáxias</a>
         </div>
         <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
-	        <img src="../../../../../../images/pl2.jpg"/>
+	        <img src="/images/pl2.jpg"/>
         </a>
       </li>
       <li>
@@ -26,7 +26,7 @@
 	        <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">Exoplanetas</a>
         </div>
         <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
-	        <img src="../../../../../../images/pl3.jpg"/>
+	        <img src="/images/pl3.jpg"/>
         </a>
       </li>
       <li>
@@ -34,7 +34,7 @@
 	        <a href="#">Instrumentação</a>
         </div>
         <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
-	        <img src="../../../../../../images/pl4.jpg"/>
+	        <img src="/images/pl4.jpg"/>
         </a>
       </li>
       <li>
@@ -42,7 +42,7 @@
 	        <a href="#">X-Ciência em Debate</a>
         </div>
         <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
-	        <img src="../../../../../../images/pl5.jpg"/>
+	        <img src="/images/pl5.jpg"/>
         </a>
       </li>
     </ul>

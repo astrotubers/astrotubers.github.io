@@ -13,7 +13,7 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active" style="object-fit: cover;">
-          <img src="../../../../../../images/slider1.jpg" alt="Quem Somos" style="object-fit: contain;">
+          <img src="/images/slider1.jpg" alt="Quem Somos" style="object-fit: contain;">
           <div class="carousel-caption">
             <h3></h3>
             <p></p>
@@ -21,7 +21,7 @@
         </div>
 
         <div class="item">
-          <img src="../../../../../../images/slide2-2.jpg" alt="SAB 2018" style="object-fit: contain;">
+          <img src="/images/slide2-2.jpg" alt="SAB 2018" style="object-fit: contain;">
           <div class="carousel-caption">
             <h3>SAB</h3>
             <p>Astrotubers fecham parceria com a Sociedade Astronômica Brasileira</p>
@@ -29,7 +29,7 @@
         </div>
       
         <div class="item">
-          <img src="../../../../../../images/slide3.jpeg" alt="Whatsapp" style="object-fit: contain;">
+          <img src="/images/slide3.jpeg" alt="Whatsapp" style="object-fit: contain;">
           <div class="carousel-caption">
             <h3>Whatsapp</h3>
             <p>Venha participar das nossas discussões sobre a vida, o universo e tudo mais</p>

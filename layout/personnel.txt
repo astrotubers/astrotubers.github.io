@@ -7,7 +7,7 @@
 	  <div class="col-md-3 col-sm-6 col-xs-6">
 		  <div class="btm-right">
         <a href="#aaa">
-			  <img src="../../../../../../images/p9.jpeg" alt=" ">
+			  <img src="/images/p9.jpeg" alt=" ">
         </a>
 			  <div class="w3social-icons captn-icon"> 
 				  <ul>
@@ -30,7 +30,7 @@
 	  <div class="col-md-3 col-sm-6 col-xs-6">
 		  <div class="btm-right">
         <a href="#aaa">
-			  <img src="../../../../../../images/p9.jpeg" alt=" ">
+			  <img src="/images/p9.jpeg" alt=" ">
         </a>
 			  <div class="w3social-icons captn-icon"> 
 				  <ul>
@@ -53,7 +53,7 @@
 	  <div class="col-md-3 col-sm-6 col-xs-6">
 		  <div class="btm-right">
         <a href="#aaa">
-			  <img src="../../../../../../images/p9.jpeg" alt=" ">
+			  <img src="/images/p9.jpeg" alt=" ">
         </a>
 			  <div class="w3social-icons captn-icon"> 
 				  <ul>
@@ -76,7 +76,7 @@
 	  <div class="col-md-3 col-sm-6 col-xs-6">
 		  <div class="btm-right">
         <a href="#aaa">
-			  <img src="../../../../../../images/p9.jpeg" alt=" ">
+			  <img src="/images/p9.jpeg" alt=" ">
         </a>
 			  <div class="w3social-icons captn-icon"> 
 				  <ul>
