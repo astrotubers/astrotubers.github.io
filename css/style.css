@@ -1011,6 +1011,9 @@ h3.agile-contact {
 .fb-comments-wrapper{
     width: 90%;
     margin-left: 5%;
+    border-top: 2px solid #666;
+    margin-top: 40px;
+    padding-top: 40px;
 }
 .fb-comments {
     width: 100% !important;
