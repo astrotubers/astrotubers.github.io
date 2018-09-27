@@ -4,7 +4,7 @@
   
   <div class="col-md-3 col-sm-6 col-xs-6 videos-grid recommended-grid">
 		<div class="videos-grid-img">
-			<a href="single.html"><img src="../../../../../../images/t1.jpg" alt="" /></a>
+			<a href="single.html"><img src="/images/t1.jpg" alt="" /></a>
 		</div>
 		<div class="recommended-grid-info">
 			<h3><a href="single.html" class="title title-info">Por que algumas estrelas brilham mais que as outras?</a></h3>
@@ -13,7 +13,7 @@
 	
   <div class="col-md-3 col-sm-6 col-xs-6 videos-grid recommended-grid">
 		<div class="videos-grid-img">
-			<a href="single.html"><img src="../../../../../../images/t2.jpg" alt="" /></a>
+			<a href="single.html"><img src="/images/t2.jpg" alt="" /></a>
 		</div>
 		<div class="recommended-grid-info">
 			<h3><a href="single.html" class="title title-info">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet</a></h3>
@@ -22,7 +22,7 @@
 
   <div class="col-md-3 col-sm-6 col-xs-6 videos-grid recommended-grid">
 		<div class="videos-grid-img">
-			<a href="single.html"><img src="../../../../../../images/t3.jpg" alt="" /></a>
+			<a href="single.html"><img src="/images/t3.jpg" alt="" /></a>
 		</div>
 		<div class="recommended-grid-info">
 			<h3><a href="single.html" class="title title-info">Por que algumas estrelas brilham mais que as outras?</a></h3>
@@ -31,7 +31,7 @@
 	
   <div class="col-md-3 col-sm-6 col-xs-6 videos-grid recommended-grid">
 		<div class="videos-grid-img">
-			<a href="single.html"><img src="../../../../../../images/t1.jpg" alt="" /></a>
+			<a href="single.html"><img src="/images/t1.jpg" alt="" /></a>
 		</div>
 		<div class="recommended-grid-info">
 			<h3><a href="single.html" class="title title-info">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet</a></h3>
