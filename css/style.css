@@ -253,7 +253,7 @@ display: flex;
 }
 
 .content-background{
-  color: #fff;
+  background-color: #fff;
   padding-bottom: 40px;
 }
 .navbar-custom {
