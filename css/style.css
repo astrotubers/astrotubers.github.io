@@ -137,8 +137,7 @@ display: flex;
   display: inline-block;
   color: white;
   font-size: 3em !important;
-  border-left: 10px solid;
-  border-right: 10px solid;
+  border-left: 20px solid;
 }
 
 .fa-social:hover {
@@ -228,6 +227,7 @@ display: flex;
 
 .content{
   padding: 0px !important;
+  background-color: rgba(0,0,0,0.9);
 }
 
 .content h1{
@@ -236,6 +236,23 @@ display: flex;
   padding-bottom: 0.3em;
 }
 
+.content_alt img{
+  width: 100%;
+}
+
+.content_alt h1{
+  padding: 20px;
+}
+
+.content_alt p{
+  padding: 10px 20px;
+  text-align: justify;
+}
+
+.content-background{
+  color: #fff;
+  padding-bottom: 40px;
+}
 .navbar-custom {
     background-color:#111;
     color:#aaa;
@@ -794,6 +811,10 @@ text-decoration: none;
 background-color: rgba(0,0,0,0.9);
 padding-top: 0px;
 margin: 0;
+}
+
+.contact_alt{
+background-color: rgba(0,0,0,0) !important;
 }
 
 .contact h1{
